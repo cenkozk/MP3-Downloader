@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "jigglemp3",
+  "name": "jigglemp3 MP3 Downloader",
   "icons": [
     {
       "src": "favicon.ico",
