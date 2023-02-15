@@ -15,7 +15,7 @@ function App() {
   const [initialize, setInitialize] = React.useState(true);
   const [isDownloadCompleted, setIsDownloadCompleted] = React.useState(false);
   const [videoInfo, setVideoInfo] = React.useState({ imageUrl: "", header: "", link128kpbs: "" });
-  const [inputVideoUrl, setInputVideoUrl] = React.useState("https://music.youtube.com/watch?v=JApegyYlvyY");
+  const [inputVideoUrl, setInputVideoUrl] = React.useState("https://music.youtube.com/watch?v=YRkWZO4iLYk");
   const [isDownloading, setIsDownloading] = React.useState(false);
   const [inputBackgroundColor, setInputBackgroundColor] = React.useState([0, 0, 0]);
   //return if same as old link
