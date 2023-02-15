@@ -23,7 +23,7 @@ export default function CardV2(props) {
       if (!props.imageurl) {
         return;
       }
-      const color = await prominent(props.imageurl, { amount: 2 });
+      const color = await prominent(`https://corsproxy.io/?${props.imageurl}`, { amount: 2 });
       function compareColors(color1, color2) {
         // Compute luminance for color 1
         let luminance1 = 0.2126 * color1[0] + 0.7152 * color1[1] + 0.0722 * color1[2];
