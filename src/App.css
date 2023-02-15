@@ -42,6 +42,7 @@
   color: #FFFFFF;
   user-select: none;
   z-index: 2;
+  text-shadow: rgb(0, 0, 0) 0px 0 10px;
 }
 
 .header-div-right{
