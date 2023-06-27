@@ -17,7 +17,6 @@
   height: 100vh;
   justify-content: center;
   padding-top: 15vh;
-  margin-top: -80px;
 }
 
 .cards-image{
@@ -157,7 +156,8 @@
 
   input::placeholder {
     text-shadow: rgba(0, 0, 0, 0) 0px 0 10px;
-    color: #474747;
+    color: #ffffff;
+    opacity: 50%;
 }
 
 .url-input[type=text]:focus{
